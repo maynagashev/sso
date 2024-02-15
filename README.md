@@ -1,2 +1,2 @@
 # sso
-SSO server on Go
+SSO GRPC server on Go

@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/maynagashev/sso/internal/config"
+
+	"sso/internal/config"
 )
 
 func main() {
