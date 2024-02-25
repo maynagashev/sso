@@ -15,7 +15,7 @@ type Config struct {
 }
 
 type GRPCConfig struct {
-	Port string `yaml:"port" env-default:"50051"`
+	Port int `yaml:"port" env-default:"50051"`
 }
 
 func MustLoad() *Config {
